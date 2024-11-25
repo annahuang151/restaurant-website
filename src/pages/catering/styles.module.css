@@ -1,0 +1,110 @@
+.cateringPage {
+    padding: 20px 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cateringPage h2, h3 {
+    color: var(--gold-color);
+}
+
+.cateringPageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow elements to wrap on small screens */
+}
+
+.cateringPageLeft {
+    text-align: left;
+    margin: 0px 30px;
+    color: var(--dark-gray-color);
+    /* Add the vertical line */
+    border-right: 1px solid #ccc; /* Vertical line between left and right */
+    padding-right: 30px; /* Space between line and menu */
+}
+
+.cateringPageList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cateringPageRight {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.cateringPageRight h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.carouselWrapper {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carouselItem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselWrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .cateringPageContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cateringPageLeft {
+        margin-right: 0;
+        margin-bottom: 20px;
+        border-right: none; /* Remove vertical line on small screens */
+        padding-right: 0; /* Remove padding */
+    }
+
+    .cateringPageRight {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .carouselWrapper {
+        height: 225px;
+    }
+
+    .carouselItem {
+        height: 100%; 
+    }
+
+    .cateringPageImage {
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cateringPageRight {
+        max-width: 100%;
+    }
+
+    .carouselWrapper {
+        height: 200px;
+    }
+}
