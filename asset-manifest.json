@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/restaurant-website/static/css/main.81015f61.css",
+    "main.js": "/restaurant-website/static/js/main.9b6a1d7d.js",
+    "static/js/453.d48a7b93.chunk.js": "/restaurant-website/static/js/453.d48a7b93.chunk.js",
+    "static/media/rest.jpg": "/restaurant-website/static/media/rest.47924be842d0b0e7628b.jpg",
+    "static/media/foodphoto.webp": "/restaurant-website/static/media/foodphoto.33703d45a629f34c349e.webp",
+    "static/media/fullmoon.jpg": "/restaurant-website/static/media/fullmoon.22bf4ead7cd15830d12c.jpg",
+    "static/media/photo4.jpg": "/restaurant-website/static/media/photo4.345175ebbd436941df9b.jpg",
+    "static/media/pudding.png": "/restaurant-website/static/media/pudding.495aa59ed148bc5d385d.png",
+    "static/media/afternoontea.jpg": "/restaurant-website/static/media/afternoontea.93117816d3f78daab82d.jpg",
+    "static/media/logo.jpg": "/restaurant-website/static/media/logo.3a36758189ffa2f8fc17.jpg",
+    "static/media/delivery.webp": "/restaurant-website/static/media/delivery.205397f15af1369c57e8.webp",
+    "static/media/catering.webp": "/restaurant-website/static/media/catering.3ad87f64f270b193e287.webp",
+    "index.html": "/restaurant-website/index.html",
+    "main.81015f61.css.map": "/restaurant-website/static/css/main.81015f61.css.map",
+    "main.9b6a1d7d.js.map": "/restaurant-website/static/js/main.9b6a1d7d.js.map",
+    "453.d48a7b93.chunk.js.map": "/restaurant-website/static/js/453.d48a7b93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81015f61.css",
+    "static/js/main.9b6a1d7d.js"
+  ]
+}
