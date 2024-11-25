@@ -1,0 +1,44 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: white; /* Ensure text is visible against the background */
+    font-family: 'Poppins', sans-serif; /* Optional: Use your chosen font */
+    margin-top: 20px;
+
+    /* Radial Pattern Background */
+    --s: 60px; /* Control the size */
+    --c1: #b09f79; /* Gold */
+    --c2: #366336; /* Dark Green */
+  
+    --_g: #0000 83%, var(--c1) 85% 99%, #0000 101%;
+    background:
+        radial-gradient(27% 29% at right , var(--_g)) calc(var(--s)/2) var(--s),
+        radial-gradient(27% 29% at left  , var(--_g)) calc(var(--s)/-2) var(--s),
+        radial-gradient(29% 27% at top   , var(--_g)) 0 calc(var(--s)/2),
+        radial-gradient(29% 27% at bottom, var(--_g)) 0 calc(var(--s)/-2)
+        var(--c2);
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between icons */
+    margin: 10px 0;
+}
+
+.icon {
+    color: white; /* Green color for icons */
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Slight zoom-in effect on hover */
+    color: #388e3c; /* Darker green on hover */
+}

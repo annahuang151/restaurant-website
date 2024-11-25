@@ -1,0 +1,11 @@
+.contactPage {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,73 @@
+.navbar {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.banner {
+    width: 100%;
+    background-image: url('../../assets/foodphoto.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.3s ease;
+}
+
+.large {
+    height: 300px;
+}
+
+.small {
+    height: 150px;
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo img {
+    height: 60px;
+}
+
+.navbarLinks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.navbarLinks li {
+    margin: 0;
+}
+
+.navbarLinks a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--dark-gray-color);
+}
+
+.navbarLinks a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Thickness of the underline */
+    color: var(--dark-gray-color);
+    transition: width 0.3s ease-in-out;
+}
+
+.navbarLinks a:hover {
+    color: var(--gold-color);
+}
