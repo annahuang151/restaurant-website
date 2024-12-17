@@ -20,12 +20,13 @@ const DeliveryPage: React.FC = () => {
                 Enjoy fresh and delicious food delivered right to your doorstep!
             </p>
             <Button
-                    variant="contained" 
-                    color="success"
-                    href="/contact" 
-                    target="_self" 
-                >
-                    CONTACT US
+                variant="contained" 
+                color="success"
+                href="/contact" 
+                target="_self"
+                className={styles.contactButton}
+            >
+                CONTACT US
             </Button>
         </article>
     );

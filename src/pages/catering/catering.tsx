@@ -3,7 +3,7 @@ import Carousel from 'react-material-ui-carousel';
 import styles from './styles.module.css';
 
 // Define the possible event types
-type CateringEvent = 'CATERING' | 'BABY SHOWERING/FULL MOON CUSINES' | 'AFTERNOON TEA' | 'BIRTHDAY PARTY';
+type CateringEvent = 'CATERING' | 'BABY SHOWERING/FULL MOON CUSINES' | 'SPECIAL MEAL';
 
 const CateringPage: React.FC = () => {
     const [selectedEvent, setSelectedEvent] = useState<CateringEvent>('CATERING');
@@ -12,15 +12,13 @@ const CateringPage: React.FC = () => {
     const cateringOptions: CateringEvent[] = [
         'CATERING',
         'BABY SHOWERING/FULL MOON CUSINES',
-        'AFTERNOON TEA',
-        'BIRTHDAY PARTY',
+        'SPECIAL MEAL'
     ];
 
     const eventImages: Record<CateringEvent, string[]> = {
-        'CATERING': ['/images/catering/photo3.jpg', '/images/catering/photo4.jpg'],
-        'BABY SHOWERING/FULL MOON CUSINES': ['/images/catering/photo3.jpg', '/images/catering/photo4.jpg'],
-        'AFTERNOON TEA': ['/images/catering/photo3.jpg', '/images/catering/photo4.jpg'],
-        'BIRTHDAY PARTY': ['/images/catering/photo3.jpg', '/images/catering/photo4.jpg'],
+        'CATERING': ['/images/catering/catering1.jpg', '/images/catering/catering2.jpg','/images/catering/catering3.jpg','/images/catering/catering4.jpg','/images/catering/catering5.jpg'],
+        'BABY SHOWERING/FULL MOON CUSINES': ['/images/catering/fullmoonMeal.jpg', '/images/catering/babyshower1.jpg'],
+        'SPECIAL MEAL': ['/images/catering/specialmeal3.jpg', '/images/catering/specialmeal2.jpg','/images/catering/specialmeal1.jpg','/images/catering/specialmeal4.jpg','/images/catering/specialmeal5.jpg','/images/catering/specialmeal6.jpg','/images/catering/specialmeal7.jpg']
     };
 
     const handleSelection = (event: CateringEvent) => {

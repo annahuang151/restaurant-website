@@ -1,20 +1,37 @@
+/* Parent container styles */
 .deliveryPage {
-    margin: 0 auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 .deliveryPage img {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     height: auto;
-    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Button spacing */
+.contactButton {
+    margin-top: 1rem;
+}
+
+.deliveryPage p{
+    padding: 0px 180px;
 }
 
 @media (max-width: 768px) {
     .deliveryPage img {
         max-width: 100%;
+    }
+
+    .deliveryPage p{
+        padding: 0 10px;
+        font-size: 14px;
     }
 }
 

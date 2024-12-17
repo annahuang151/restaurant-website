@@ -9,8 +9,10 @@ body {
 
 :root {
   --gold-color: #ab966b;
-  --dark-green-color: #366336;
+  --button-green-color: #2A6933;
+  --dark-green-color: #388D44;
   --dark-gray-color: #535353;
+  --light-green-color: #44aa53;
 }
 
 h2{

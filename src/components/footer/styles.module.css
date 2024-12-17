@@ -1,15 +1,14 @@
 .footer {
     text-align: center;
     padding: 20px;
-    color: white; /* Ensure text is visible against the background */
-    font-family: 'Poppins', sans-serif; /* Optional: Use your chosen font */
+    color: white;
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
 
     /* Radial Pattern Background */
     --s: 60px; /* Control the size */
-    --c1: #b09f79; /* Gold */
-    --c2: #366336; /* Dark Green */
-  
+    --c1: var(--gold-color);
+    --c2: var(--dark-green-color);
     --_g: #0000 83%, var(--c1) 85% 99%, #0000 101%;
     background:
         radial-gradient(27% 29% at right , var(--_g)) calc(var(--s)/2) var(--s),
@@ -28,17 +27,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px; /* Space between icons */
+    gap: 15px;
     margin: 10px 0;
 }
 
 .icon {
-    color: white; /* Green color for icons */
+    color: white;
     transition: transform 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
 
 .icon:hover {
     transform: scale(1.2); /* Slight zoom-in effect on hover */
-    color: #388e3c; /* Darker green on hover */
+    color: var(--gold-color);
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.phone {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.phone:hover {
+    color: cornflowerblue;
 }

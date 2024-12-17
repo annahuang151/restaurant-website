@@ -7,19 +7,24 @@ import MenuPage from './pages/menu/menu';
 import CateringPage from './pages/catering/catering';
 import DeliveryPage from './pages/delivery/delivery';
 import ContactPage from './pages/contact/contact';
+import styles from './styles.module.css'; // Make sure your styles are imported
 
 const App: React.FC = () => {
     return (
         <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/menu" element={<MenuPage />} />
-                <Route path="/catering" element={<CateringPage />} />
-                <Route path="/delivery" element={<DeliveryPage />} />
-                <Route path="/contact" element={<ContactPage />} />
-            </Routes>
-            <Footer />
+            <div className={styles.appContainer}>
+                <Navbar />
+                <main>
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/menu" element={<MenuPage />} />
+                        <Route path="/catering" element={<CateringPage />} />
+                        <Route path="/delivery" element={<DeliveryPage />} />
+                        <Route path="/contact" element={<ContactPage />} />
+                    </Routes>
+                </main>
+                <Footer />
+            </div>
         </Router>
     );
 };

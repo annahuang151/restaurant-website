@@ -11,7 +11,8 @@ const Navbar: React.FC = () => {
             <div className={`${styles.banner} ${isHomePage ? styles.large : styles.small}`}>
                 <div className={styles.navbarContent}>
                     <Link to="/" className={styles.navbarLogo}>
-                        <img src={require('../../assets/logo.jpg')} alt="Mossa Catering & Deli Logo" />
+                        {/* Reference the logo directly */}
+                        <img src="/owl_logo.svg" alt="Owl Logo" className={styles.navbarLogo} />
                     </Link>
                 </div>
             </div>

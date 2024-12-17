@@ -7,14 +7,16 @@ const Footer: React.FC = () => {
         <footer className={styles.footer}>
             <p>Follow us on</p>
             <div className={styles.socialLinks}>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+                <a href="https://www.instagram.com/jacatering_phoenix/" target="_blank" rel="noreferrer" aria-label="Instagram">
                     <Instagram fontSize="large" className={styles.icon} />
                 </a>
                 <a href="https://line.me" target="_blank" rel="noreferrer" aria-label="Line">
                     <ChatBubble fontSize="large" className={styles.icon} />
                 </a>
             </div>
-            <p>Contact: +1 (123) 456-7890</p>
+            <p>
+                Contact: <a href="tel:+11234567890" className={styles.phone}>+1 (123) 456-7890</a>
+            </p>
         </footer>
     );
 };

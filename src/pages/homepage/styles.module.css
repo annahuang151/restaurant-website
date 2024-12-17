@@ -51,21 +51,14 @@
     width: 400px;
     height: 400px;
     left: 0;
-    background-image: url('../../../public/images/homepage/pudding.png');
-}
-
-.imageRightService {
-    height: 400px;
-    bottom: 0;
-    right: 0;
-    background-image: url('../../assets/photo4.jpg');
+    background-image: url('/public/images/homepage/chopstick.png');
 }
 
 .divider {
     height: 60px;
     margin: 40px 0;
     width: 100%;
-    background-color: #366336;
+    background-color: var(--dark-green-color);
 }
 
 
@@ -99,4 +92,16 @@ h3{
 p{
     font-family: 'Roboto Slab';
     font-weight: 200;
+    padding: 0px 20px;
+}
+
+@media (max-width: 1000px) {
+    .imageLeftConcept {
+        background-image: none;
+    }
+
+    h1{
+        color: var(--gold-color);
+        font-size: 30px;
+    }
 }
