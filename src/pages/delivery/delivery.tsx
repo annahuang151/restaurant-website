@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Button } from '@mui/material';
+import { Button } from '@mui/material';
 import styles from './styles.module.css';
 
 const DeliveryPage: React.FC = () => {
