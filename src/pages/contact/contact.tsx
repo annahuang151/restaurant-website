@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { TextField, Button, MenuItem, Typography, Box } from '@mui/material';
+import { TextField, Button, MenuItem } from '@mui/material';
 import styles from './styles.module.css';
 
 type FormData = {
