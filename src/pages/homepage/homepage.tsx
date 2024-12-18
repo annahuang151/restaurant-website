@@ -75,7 +75,7 @@ const HomePage: React.FC = () => {
                 </p>
                 <p> Mon.-Fri. 11AM - 7PM</p>
                 <p> Sat. 12AM - 9PM</p>
-                <img src={'images/homepage/restaurant.jpg'} alt="restaurant photo" />
+                <img src={'images/homepage/restaurant.jpg'} alt="restaurant" />
                 <Button 
                     variant="contained" 
                     color="success"

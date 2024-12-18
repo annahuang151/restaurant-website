@@ -7,7 +7,6 @@ type CateringEvent = 'CATERING' | 'BABY SHOWERING/FULL MOON CUSINES' | 'SPECIAL 
 
 const CateringPage: React.FC = () => {
     const [selectedEvent, setSelectedEvent] = useState<CateringEvent>('CATERING');
-    const [index, setIndex] = useState(0);
 
     const cateringOptions: CateringEvent[] = [
         'CATERING',
@@ -49,7 +48,6 @@ const CateringPage: React.FC = () => {
                     <h3>{selectedEvent}.</h3>
                     <div className={styles.carouselWrapper}>
                         <Carousel
-                            index={index}
                             autoPlay={true}
                             navButtonsAlwaysVisible
                             indicators={false}
