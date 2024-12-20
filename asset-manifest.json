@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.css": "/restaurant-website/static/css/main.81015f61.css",
-    "main.js": "/restaurant-website/static/js/main.65a91948.js",
+    "main.css": "/restaurant-website/static/css/main.3964be9d.css",
+    "main.js": "/restaurant-website/static/js/main.6c04d542.js",
     "static/js/453.d48a7b93.chunk.js": "/restaurant-website/static/js/453.d48a7b93.chunk.js",
-    "static/media/rest.jpg": "/restaurant-website/static/media/rest.47924be842d0b0e7628b.jpg",
-    "static/media/foodphoto.webp": "/restaurant-website/static/media/foodphoto.33703d45a629f34c349e.webp",
-    "static/media/fullmoon.jpg": "/restaurant-website/static/media/fullmoon.22bf4ead7cd15830d12c.jpg",
-    "static/media/photo4.jpg": "/restaurant-website/static/media/photo4.345175ebbd436941df9b.jpg",
-    "static/media/pudding.png": "/restaurant-website/static/media/pudding.495aa59ed148bc5d385d.png",
-    "static/media/afternoontea.jpg": "/restaurant-website/static/media/afternoontea.93117816d3f78daab82d.jpg",
-    "static/media/logo.jpg": "/restaurant-website/static/media/logo.3a36758189ffa2f8fc17.jpg",
-    "static/media/delivery.webp": "/restaurant-website/static/media/delivery.205397f15af1369c57e8.webp",
-    "static/media/catering.webp": "/restaurant-website/static/media/catering.3ad87f64f270b193e287.webp",
+    "static/media/chopstick.png": "/restaurant-website/static/media/chopstick.aa32c854bb0eb9b3ef46.png",
+    "static/media/steakbanner.png": "/restaurant-website/static/media/steakbanner.519f9312678a11b8bad9.png",
     "index.html": "/restaurant-website/index.html",
-    "main.81015f61.css.map": "/restaurant-website/static/css/main.81015f61.css.map",
-    "main.65a91948.js.map": "/restaurant-website/static/js/main.65a91948.js.map",
+    "main.3964be9d.css.map": "/restaurant-website/static/css/main.3964be9d.css.map",
+    "main.6c04d542.js.map": "/restaurant-website/static/js/main.6c04d542.js.map",
     "453.d48a7b93.chunk.js.map": "/restaurant-website/static/js/453.d48a7b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81015f61.css",
-    "static/js/main.65a91948.js"
+    "static/css/main.3964be9d.css",
+    "static/js/main.6c04d542.js"
   ]
 }
