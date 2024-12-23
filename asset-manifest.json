@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/restaurant-website/static/css/main.3964be9d.css",
-    "main.js": "/restaurant-website/static/js/main.50000575.js",
+    "main.css": "/restaurant-website/static/css/main.e8fc8f60.css",
+    "main.js": "/restaurant-website/static/js/main.68e1f00d.js",
     "static/js/453.d48a7b93.chunk.js": "/restaurant-website/static/js/453.d48a7b93.chunk.js",
     "static/media/chopstick.png": "/restaurant-website/static/media/chopstick.aa32c854bb0eb9b3ef46.png",
     "static/media/steakbanner.png": "/restaurant-website/static/media/steakbanner.519f9312678a11b8bad9.png",
     "index.html": "/restaurant-website/index.html",
-    "main.3964be9d.css.map": "/restaurant-website/static/css/main.3964be9d.css.map",
-    "main.50000575.js.map": "/restaurant-website/static/js/main.50000575.js.map",
+    "main.e8fc8f60.css.map": "/restaurant-website/static/css/main.e8fc8f60.css.map",
+    "main.68e1f00d.js.map": "/restaurant-website/static/js/main.68e1f00d.js.map",
     "453.d48a7b93.chunk.js.map": "/restaurant-website/static/js/453.d48a7b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3964be9d.css",
-    "static/js/main.50000575.js"
+    "static/css/main.e8fc8f60.css",
+    "static/js/main.68e1f00d.js"
   ]
 }
