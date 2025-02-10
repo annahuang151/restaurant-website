@@ -1,0 +1,115 @@
+.aboutPage {
+    padding: 20px 90px;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--dark-gray-color);
+}
+
+.aboutPage h2, 
+.aboutPage h3 {
+    color: var(--gold-color);
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 40px 0;
+}
+
+.aboutImage {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.aboutContent {
+    max-width: 600px;
+}
+
+.missionWrapper {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.missionWrapper p {
+    padding: 0 40px;
+}
+
+.sectionDivider {
+    margin: 40px 0;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.cateringServiceWrapper {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--dark-gray-color);
+}
+
+.cateringServiceWrapper h3 {
+    color: var(--gold-color);
+    margin-bottom: 15px;
+}
+
+.cateringServiceWrapper p {
+    padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutImage {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .missionWrapper p{
+        padding: 0 20px;
+    }
+
+    .cateringServiceWrapper p {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutPage {
+        padding: 20px 10px;
+    }
+
+    .aboutPage h2, 
+    .aboutPage h3 {
+        font-size: 16px;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .missionWrapper p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .cateringServiceWrapper p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
