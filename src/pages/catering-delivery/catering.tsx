@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-material-ui-carousel';
 import styles from './styles.module.css';
+import { Button } from '@mui/material';
 
 // Define the possible event types
 type CateringEvent = 'CATERING' | 'BABY SHOWERING/FULL MOON CUSINES' | 'SPECIAL MEAL';
@@ -68,6 +69,31 @@ const CateringPage: React.FC = () => {
                         Details about {selectedEvent}. Contact us for more information and planning assistance!
                     </p>
                 </div>
+            </div>
+
+            <div className={styles.deliveryWrapper}>
+                <h2>DELIVERY</h2>
+                <h3>Seasonal vegetable box</h3>
+                <img src='/images/delivery/bentobox.jpg' alt="bento box" />
+                <p>
+                    Our delivery service is available for locations within 10 kilometers of the restaurant.
+                </p>
+                <p>
+                    Place your order through our website or call us at (602) 603-1646. 
+                    (Please place your order 1 day earlier in advance.)
+                </p>
+                <p>
+                    Enjoy fresh and delicious food delivered right to your doorstep!
+                </p>
+                <Button
+                    variant="contained" 
+                    color="success"
+                    href="/contact" 
+                    target="_self"
+                    className={styles.contactButton}
+                >
+                    CONTACT US
+                </Button>
             </div>
         </div>
     );
